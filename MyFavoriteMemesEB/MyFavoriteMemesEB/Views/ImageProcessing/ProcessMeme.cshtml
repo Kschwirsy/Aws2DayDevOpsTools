@@ -1,0 +1,13 @@
+﻿@model MyFavoriteMemesEB.Models.ProcessMemeViewModel
+
+@{
+    ViewBag.Title = "Enjoy your meme!";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Enjoy your meme!</h2>
+
+<div class="meme" style="background-image:url(@Model.ImageUrl)">
+    <p class="top">@Html.DisplayTextFor(m => m.TopText)</p>
+    <p class="bottom">@Html.DisplayTextFor(m => m.BottomText)</p>
+</div>

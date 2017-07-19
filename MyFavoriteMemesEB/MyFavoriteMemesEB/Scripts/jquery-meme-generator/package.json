@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "jquery-meme-generator",
+        "scope": null,
+        "escapedName": "jquery-meme-generator",
+        "name": "jquery-meme-generator",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\code\\aws2daydevopsdemo\\MyFavoriteMemesEB"
+    ]
+  ],
+  "_from": "jquery-meme-generator@latest",
+  "_id": "jquery-meme-generator@1.0.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/jquery-meme-generator",
+  "_nodeVersion": "7.9.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/jquery-meme-generator-1.0.4.tgz_1493549210548_0.18390666414052248"
+  },
+  "_npmUser": {
+    "name": "makg",
+    "email": "makg@makg.eu"
+  },
+  "_npmVersion": "4.4.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "jquery-meme-generator",
+    "scope": null,
+    "escapedName": "jquery-meme-generator",
+    "name": "jquery-meme-generator",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jquery-meme-generator/-/jquery-meme-generator-1.0.4.tgz",
+  "_shasum": "3d29604615f0a65152f404d0b09fcb5afeca2fbb",
+  "_shrinkwrap": null,
+  "_spec": "jquery-meme-generator",
+  "_where": "C:\\code\\aws2daydevopsdemo\\MyFavoriteMemesEB",
+  "author": {
+    "name": "Maciej Gierej",
+    "email": "makg@makg.eu",
+    "url": "http://maciej.gierej.pl"
+  },
+  "bugs": {
+    "url": "https://github.com/MakG10/jquery-meme-generator/issues"
+  },
+  "dependencies": {
+    "jquery": ">=1.7.2",
+    "jquery-ui": ">=1.7.2"
+  },
+  "description": "Meme Generator is a jQuery plugin allowing easily creating images with captions (memes) using interactive editor.",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-less": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "3d29604615f0a65152f404d0b09fcb5afeca2fbb",
+    "tarball": "https://registry.npmjs.org/jquery-meme-generator/-/jquery-meme-generator-1.0.4.tgz"
+  },
+  "gitHead": "90a5e9c5c6ef5b5577965199ed0be0ce0edc96cf",
+  "homepage": "http://maciej.gierej.pl/en/jquery-meme-generator",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "meme",
+    "generator",
+    "image",
+    "caption"
+  ],
+  "license": "MIT",
+  "main": "src/js/jquery.memegenerator.js",
+  "maintainers": [
+    {
+      "name": "makg",
+      "email": "makg@makg.eu"
+    }
+  ],
+  "name": "jquery-meme-generator",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakG10/jquery-meme-generator.git"
+  },
+  "scripts": {},
+  "version": "1.0.4"
+}

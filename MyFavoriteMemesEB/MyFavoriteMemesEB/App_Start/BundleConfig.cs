@@ -21,11 +21,16 @@ namespace MyFavoriteMemesEB
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+                      "~/Scripts/respond.js",
+                      "~/Scripts/jquery.memegenerator.min.js",
+                      "~/Scripts/jquery.memegenerator.js",
+                      "~/Scripts/MemeGenScripts.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/jquery.memegenerator.min.css",
+                      "~/Content/MemeStyles.css"));
         }
     }
 }
